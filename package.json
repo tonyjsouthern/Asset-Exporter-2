@@ -1,0 +1,30 @@
+{
+  "name": "asset-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf dump && rm -rf error-log.txt && node index.js"
+  },
+  "bin": "bin.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "btoa": "^1.2.1",
+    "dotenv": "^6.2.0",
+    "download": "^7.1.0",
+    "filedownloader": "^1.2.7",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.3.1"
+  },
+  "pkg": {
+    "scripts": {
+      "start": "rm -rf dump && rm -rf error-log.txt && node index.js"
+    }
+  },
+  "devDependencies": {
+    "pkg": "^4.4.0"
+  }
+}
